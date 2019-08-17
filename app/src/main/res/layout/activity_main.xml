@@ -15,6 +15,13 @@
             android:layout_height="wrap_content" android:id="@+id/name_text"
             android:textAlignment="center"
             style="@style/NameStyle"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nickname_edit" android:hint="@string/what_is_your_nickname"
+            android:textAlignment="center" style="@style/NameStyle"/>
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content" app:srcCompat="@android:drawable/btn_star_big_on"
