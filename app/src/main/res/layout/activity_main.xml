@@ -22,6 +22,12 @@
             android:ems="10"
             android:id="@+id/nickname_edit" android:hint="@string/what_is_your_nickname"
             android:textAlignment="center" style="@style/NameStyle"/>
+    <Button
+            android:text="@string/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/done_button"
+            android:layout_gravity="center_horizontal" style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="@dimen/layout_margin" android:fontFamily="@font/roboto"/>
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content" app:srcCompat="@android:drawable/btn_star_big_on"
